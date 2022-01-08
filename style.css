@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+/*font-family: 'Electrolize', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*font-family: 'Roboto', sans-serif;*/
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    --darkgray:#2d2d34;
+    --lightgray:#D3D3D3;
+    --blue: rgba(69,177,232,0.6);
+   
+}
+
+
+
+div.counter_container{
+   padding: 5%;
+   border: 1px solid black;
+   border-radius: 15px;
+   padding-bottom: 3rem;
+   padding-top: 3rem;
+   border: 4px solid var(--darkgray);
+   background-color:var(--lightgray);
+
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 1rem;
+    color: var(--darkgray);
+    
+}
+
+
+#counting{
+    font-size: 7rem;
+    font-family: 'Electrolize', sans-serif;
+    margin-bottom: 1rem ;
+    margin-top: 1rem;
+    
+}
+
+p#counting{
+    margin-top: 30px;
+
+}
+ 
+p#result {
+    font-weight: 900;
+}
+
+.screen {
+    border: 1px solid black; 
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right:10%;
+    text-align: center;
+    border-width: 4px;
+    background-color: var(--blue);
+}
+
+
+.aritmethic-btn {
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+
+}
+
+button {
+    font-size: 1.8rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    min-width: 500px;
+    border: 3px solid var(--darkgray);
+    background-color: #fff;
+    color: var(--darkgray);
+    font-weight: bolder;
+    margin-bottom: 30px ;
+}
+
+.main-content {
+    margin-top: 3rem;
+}
+
+/*Responsive design*/
+
+@media only screen and (max-width:551px) {
+    button {
+        font-size: 1.5rem;
+        min-width: 450px;
+        margin-bottom:0;
+    }
+}
+
+/*@media only screen and (max-width:245px) {
+    h1 {
+        font-size: 4rem;
+    }
+}*/
+
+
+@media only screen and (max-width:489px) {
+   h1 {
+    margin-top: -15px;
+    margin-bottom: 10px;
+       font-size: 4.5rem;
+   }
+
+   button {
+    font-size: 1.5rem;
+    min-width: 300px;
+}
+}
+
+@media only screen and (max-width:332px) {
+    button {
+        min-width: 250px;
+    }
+}
+
+
+@media only screen and (max-width:306px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width:288px) {
+    button {
+        min-width: 200px;
+    }
+}
+
+@media only screen and (max-width:271px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media only screen and (max-width:245px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    div.counter_container {
+        padding-bottom: 2.5rem;
+    }
+}
+
+
+@media only screen and (max-width:242px) {
+    h1 {
+        font-size:2.5rem;
+    }
+
+    p#counting {
+        font-size:5.5rem ;
+    }
+    
+    
+    button {
+        min-width: 150px;
+    }
+
+}
